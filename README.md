@@ -16,4 +16,4 @@ This plugin integrates Telegram Single Sign-On (SSO) with NodeBB. It allows user
 
    ```bash
    cd path/to/nodebb/node_modules
-   git clone https://github.com/your-username/nodebb-plugin-telegram-sso.git
+   git clone https://github.com/Ahmadxon08/nodebb-plugin-sso-telegram.git
