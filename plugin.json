@@ -1,0 +1,22 @@
+{
+    "id": "nodebb-plugin-telegram-sso",
+    "name": "Telegram SSO",
+    "description": "Telegram SSO integration for NodeBB",
+    "url": "https://github.com/Ahmadxon08/nodebb-plugin-sso-telegram",
+    "library": "./library.js",
+    "hooks": [
+      { "hook": "static:app.load", "method": "init" },
+      { "hook": "action:auth.overrideLogin", "method": "handleLogin" }
+    ],
+    "staticDirs": {
+      "static": "./static"
+    },
+    "css": [
+      "static/styles.css"
+    ],
+    "templates": "./templates",
+    "less": [
+      "static/styles.less"
+    ]
+  }
+  

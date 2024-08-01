@@ -9,6 +9,10 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "dependencies": {
+    "passport": "^0.4.1",
+    "passport-telegram-official": "^2.0.0"
+  },
+  "author": "Ahmadxon",
   "license": "ISC"
 }
